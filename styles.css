@@ -1,0 +1,83 @@
+* {
+    padding:0;
+    margin:0;
+}
+
+.border {
+    width: 65vh;
+    height: 82vh;
+    border: 2px solid black;
+    position:absolute;
+    left: 31%;
+    margin-top: 5vh;
+    border-radius: 8px;
+    background-color: rgb(69, 69, 69);
+    display:flex;
+    flex-flow: column wrap;
+}
+
+.display {
+    width: 60vh;
+    height: 10vh;
+    margin-left: 2.5vh;
+    margin-top: 2.5vh;
+    background-color: gainsboro;
+    border-radius: 6px;
+    font-size: 80px;
+    background-color: lightgray;
+}
+
+.buttons {
+    justify-content: space-around;
+}
+
+.btn {
+    font-size: 75px;
+    border-radius: 30px;
+}
+
+#one, #two, #three, #four, #five, #six, #seven, #eight, #nine, #zero, #c {
+    margin-left: 40px;
+    margin-top: 40px;
+    padding: 0 40px 0px 40px;
+    background-color: rgb(66, 77, 77);
+    color: lightgrey
+}
+
+#plus, #minus, #times, #divide {
+    background-color: rgb(117, 137, 131);
+}
+
+#plus {
+    margin-left: 40px;
+    padding: 0 10px 0 10px;
+}
+
+#minus{
+    margin-left: 40px;
+    padding: 0 20px 0 20px;
+}
+
+#times {
+    line-height: 86px;
+    margin-left: 40px;
+    padding: 0 20px 0 20px;
+}
+#divide {
+    margin-left: 202px;
+    padding: 0 20px 0 20px;
+}
+
+#op {
+    margin-left: 40px;
+    font-size: 70px;
+    padding: 0 9px 0 9px;
+}
+
+#equal {
+    margin-top: 40px;
+    padding: 0 20vh 0 20vh;
+    position: relative;
+    left: 15%;
+    background-color: rgb(117, 137, 131);
+}
